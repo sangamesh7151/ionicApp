@@ -1,0 +1,31 @@
+<ion-header-bar class="bar-stable">
+	<h1 class="title">Page 2!</h1>
+</ion-header-bar>
+<ion-content class="padding">
+	
+    <form ng-submit="doLogin()" >
+     
+      <div class="list list-inset" style="background-color:#212121">
+        <label class="item item-input">
+          <span class="input-label">Login Id</span>
+          <input type="text" ng-model="loginData.login_id">
+        </label>
+        <br/>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="loginData.password">
+        </label>
+        <br>
+        <div style="text-align: center;">
+         <a href="addemployee.html">
+         <font color="#ecf0f1">Forgot password?Please Click here!</font></a>
+        </div>
+        <br>
+        <label class="item">
+          <button class="button button-block button-assertive" type="submit" style="height:10px;">Log in</button>
+        </label>
+      </div>
+        
+    </form>
+    
+</ion-content>
